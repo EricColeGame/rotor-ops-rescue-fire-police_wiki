@@ -12,7 +12,7 @@ import { routing } from "@/i18n/routing";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top";
+const siteUrl = siteConfig.url;
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -29,10 +29,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       icon: [{ url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" }, { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" }],
       apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
     },
-    title: { default: "VV: ULTIMATUM Wiki", template: "%s" },
-    description: "Complete VV: ULTIMATUM fan wiki with codes, bosses, builds, races, guides and progression walkthroughs.",
-    openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, images: [{ url: image }] },
-    twitter: { card: "summary_large_image", images: [image] },
+    title: { default: "Rotor Ops Rescue Fire Police Wiki", template: "%s" },
+    description: "Complete Rotor Ops Rescue Fire Police fan wiki with helicopter guides, rescue missions, firefighting tips, police operations and Roblox gameplay walkthroughs.",
+    keywords: ["Rotor Ops Rescue Fire Police", "Roblox", "helicopter simulator", "rescue game", "fire rescue", "police aviation"],
+    // NOTE: no `alternates.canonical` here — this metadata is inherited by pages that
+    // define none of their own (about/privacy-policy/terms-of-service/copyright), and a
+    // layout-level canonical would point every one of them at the locale homepage.
+    // Home and [...slug] pages declare their own canonical.
+    openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, title: "Rotor Ops Rescue Fire Police Wiki", description: "Complete Rotor Ops Rescue Fire Police fan wiki with helicopter guides, rescue missions, firefighting tips, police operations and Roblox gameplay walkthroughs.", images: [{ url: image, width: 768, height: 432, alt: `${siteConfig.name} key art` }] },
+    twitter: { card: "summary_large_image", title: "Rotor Ops Rescue Fire Police Wiki", description: "Complete Rotor Ops Rescue Fire Police fan wiki with helicopter guides, rescue missions, firefighting tips, police operations and Roblox gameplay walkthroughs.", images: [image] },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),
   };
 }
