@@ -1,5 +1,8 @@
 # dependencies
-node_modules/
+# NOTE: no trailing slash on purpose — a bare pattern also matches a *symlinked*
+# node_modules (used when linting without a local install), which `node_modules/`
+# (directories only) would leave untracked and vulnerable to `git add .`.
+node_modules
 .pnp
 .pnp.js
 
