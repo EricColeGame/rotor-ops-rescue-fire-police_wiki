@@ -38,27 +38,27 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your My Seafood Stand Journey",
+      "title": "Your Rotor Ops Rescue Fire Police Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn how the SAMU, fire rescue and Gendarmerie branches work, how to lift off cleanly, and how to clear your first callouts without wrecking the airframe."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Helicopter Controls",
+          "description": "Get collective, cyclic and antitorque under control, plus the keybindings that stop your Rotor Ops Rescue Fire Police helicopter from spinning on takeoff."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Rescue Missions",
+          "description": "Walk through medical hoist extractions, wildland water drops and police surveillance orbits, and see which callouts pay the most credits."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in My Seafood Stand."
+          "title": "Codes & Radio Dispatch",
+          "description": "Decode the 10-codes your crew runs on the radio, from 10-8 in service to 10-33 emergency traffic, so every dispatch call stays short and clear."
         }
       ]
     },
@@ -66,78 +66,78 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Helicopter Controls",
+        "Rescue Missions",
+        "Aircraft Tier List"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "From your first tutorial flight to your first paid SAMU, fire and Gendarmerie callouts.",
+          "href": "/guide/rotor-ops-rescue-fire-police-beginner-guide"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "title": "Helicopter Controls",
+          "description": "Collective, cyclic, antitorque and the full keybinding table for keyboard, gamepad and HOTAS.",
+          "href": "/controls/rotor-ops-rescue-fire-police-controls"
+        },
+        {
+          "badge": "Popular",
+          "title": "Rescue Missions",
+          "description": "SAMU medevac, wildfire suppression and Gendarmerie surveillance callouts with credit payouts.",
+          "href": "/missions/rotor-ops-rescue-fire-police-rescue-missions"
+        },
+        {
+          "badge": "Popular",
+          "title": "Helicopter Fleet & Costs",
+          "description": "EC145, EC135, AS365 Dauphin and H145 compared by speed, agility and credit price.",
+          "href": "/vehicles/rotor-ops-rescue-fire-police-helicopter"
+        },
+        {
+          "badge": "New",
+          "title": "Hoist Rescue Mechanics",
+          "description": "The five-step winch workflow, crew roles and the hover discipline that keeps it stable.",
+          "href": "/mechanics/rotor-ops-rescue-fire-police-hoist-rescue"
+        },
+        {
+          "badge": "Popular",
+          "title": "Aerial Firefighting",
+          "description": "Bambi bucket and tanker drop technique, wind management and low-altitude stabilization.",
+          "href": "/mechanics/rotor-ops-rescue-fire-police-water-drop"
+        },
+        {
+          "badge": "New",
+          "title": "Police Air Support",
+          "description": "FLIR tracking, searchlight slews and orbit holds for Gendarmerie pursuit operations.",
+          "href": "/missions/rotor-ops-rescue-fire-police-police-missions"
         },
         {
           "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
-        },
-        {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "title": "Radio Dispatch Codes",
+          "description": "The APCO 10-codes crews use on the radio, from 10-4 acknowledgment to 10-33 emergency traffic.",
+          "href": "/community/rotor-ops-rescue-fire-police-codes"
         },
         {
           "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
-        },
-        {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "Latest Patch Notes",
+          "description": "Mission dynamics, drop performance and hoist changes in the newest Rotor Ops update.",
+          "href": "/guide/rotor-ops-rescue-fire-police-update"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is My Seafood Stand?",
+      "title": "What is Rotor Ops Rescue Fire Police?",
       "paragraphs": [
-        "My Seafood Stand is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Rotor Ops Rescue Fire Police is a Roblox emergency aviation simulator from developer Veltsim_Officiel. You fly rotary-wing and fixed-wing aircraft for three service branches: SAMU medical evacuation, Sécurité Civile fire rescue, and Gendarmerie Nationale police air support. Every dispatch drops you into a different job, from winching an injured hiker off a cliff face to dumping water on a spreading wildland blaze.",
+        "Pilots start with a free EC145 and earn credits by completing callouts, then reinvest them into faster airframes such as the EC135, AS365 Dauphin and H145. Our wiki covers the whole loop: flight controls and keybindings, hoist rescue procedures, water drop technique, aircraft tiers and costs, mission walkthroughs, and the radio dispatch codes crews use in multiplayer."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "Veltsim_Officiel"
         },
         {
           "label": "Platform",
@@ -145,158 +145,264 @@
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Emergency Aviation Sim"
+        },
+        {
+          "label": "Service Branches",
+          "value": "3"
+        },
+        {
+          "label": "Starter Aircraft",
+          "value": "EC145 (Free)"
         },
         {
           "label": "Visits",
-          "value": "12.6M+"
+          "value": "1.5M+"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
-        },
-        {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Status",
+          "value": "Open BETA"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore My Seafood Stand Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore Rotor Ops Rescue Fire Police Wiki",
+      "description": "Every Rotor Ops Rescue Fire Police system in one place: flight controls and keybindings, helicopter and aircraft tiers, SAMU hoist rescue, aerial firefighting, Gendarmerie missions and radio dispatch codes.",
       "modules": [
         {
           "order": 1,
-          "name": "My Seafood Stand Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/my-seafood-stand-codes",
-          "displayType": "code-box",
+          "name": "Rotor Ops Rescue Fire Police Missions Guide",
+          "description": "Covers the main emergency missions in Rotor Ops Rescue Fire Police, including helicopter rescue, firefighting operations, and police aerial support tasks. This module helps new players understand mission objectives, team roles, and how to complete different scenarios efficiently.",
+          "href": "/missions/rotor-ops-rescue-fire-police-rescue-missions",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Take the dispatch call and check which branch is requesting air support"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Pick the airframe that fits the job: EC145 for medevac, bucket-equipped helicopters for fire"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Fly the assigned route and report your position to the incident commander"
+            },
+            {
+              "label": "4",
+              "detail": "Hover over the target and run the hoist, water drop or surveillance orbit"
+            },
+            {
+              "label": "5",
+              "detail": "Deliver the patient, the drop or the suspect location and confirm the call is closed"
+            },
+            {
+              "label": "6",
+              "detail": "Bank the credits and reinvest them into a faster airframe"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/my-seafood-stand-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Rotor Ops Rescue Fire Police Helicopters Guide",
+          "description": "Introduces the available helicopters and rescue aircraft, explaining their roles in medical rescue, firefighting, and surveillance operations. Players can learn which aircraft fits each mission type and how aerial tools are used.",
+          "href": "/vehicles/rotor-ops-rescue-fire-police-helicopter",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "EC145",
+              "detail": "Free starter platform for your first medical and hoist sorties"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "EC135",
+              "detail": "Roughly 160,000 credits, agile enough for urban roof landings"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "AS365",
+              "detail": "High-speed police interceptor built for night operations"
+            },
+            {
+              "label": "H145",
+              "detail": "Premium medevac airframe for mountain and gusty-weather rescues"
+            },
+            {
+              "label": "CL-415",
+              "detail": "Fixed-wing water bomber for large wildland blaze suppression"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/my-seafood-stand-tier-list",
-          "displayType": "tier-grid",
+          "name": "Rotor Ops Rescue Fire Police Beginner Guide",
+          "description": "Provides a starting guide for new players, explaining basic controls, emergency procedures, team cooperation, and mission preparation. It targets searches from players looking for how to play Rotor Ops Rescue Fire Police effectively.",
+          "href": "/guide/rotor-ops-rescue-fire-police-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "1",
+              "detail": "Finish the tutorial flight and learn collective, cyclic and yaw"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "2",
+              "detail": "Choose your branch: SAMU medical, fire rescue or Gendarmerie police"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "3",
+              "detail": "Practice a stable hover before you accept your first live callout"
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "4",
+              "detail": "Run low-risk medical calls to build credits and flight hours"
+            },
+            {
+              "label": "5",
+              "detail": "Read wind and terrain before attempting wildfire or mountain missions"
+            },
+            {
+              "label": "6",
+              "detail": "Save your first 160,000 credits for the EC135 upgrade"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/my-seafood-stand-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Rotor Ops Rescue Fire Police Vehicles List",
+          "description": "Shows the different emergency vehicles and equipment featured in the game, including rescue helicopters, firefighting aircraft, and police support tools. This helps users searching for available vehicles and gameplay features.",
+          "href": "/vehicles/rotor-ops-rescue-fire-police-aircraft",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Helicopter",
+              "detail": "Rotary-wing platforms used for medevac, hoisting and surveillance"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Air Tanker",
+              "detail": "Fixed-wing water bombers such as the CL-415 and Dash 8"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Equipment",
+              "detail": "Bambi buckets, drop doors, foam tanks, rescue hoists and FLIR cameras"
+            },
+            {
+              "label": "Upgrades",
+              "detail": "Credit costs for every airframe and the order worth buying them in"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/my-seafood-stand-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Rotor Ops Rescue Fire Police Codes",
+          "description": "Covers the radio dispatch codes crews run in Rotor Ops Rescue Fire Police, including APCO 10-codes for status, location and emergency traffic. There are no redeem codes in the game, so every aircraft is unlocked with credits earned on missions.",
+          "href": "/community/rotor-ops-rescue-fire-police-codes",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "10-4",
+              "detail": "Acknowledgment - transmission received and understood"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "10-8",
+              "detail": "In service and available for dispatch"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "10-20",
+              "detail": "Current location - relay coordinates or a waypoint"
+            },
+            {
+              "label": "10-23",
+              "detail": "Arrived on scene - rescue hover established"
+            },
+            {
+              "label": "10-33",
+              "detail": "Emergency traffic - clear the frequency for a life-safety call"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/my-seafood-stand-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Rotor Ops Rescue Fire Police Controls Guide",
+          "description": "Explains gameplay controls and interaction systems such as flying helicopters, operating rescue equipment, and coordinating emergency responses. Useful for players searching for keyboard and gameplay instructions.",
+          "href": "/controls/rotor-ops-rescue-fire-police-controls",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "W / S",
+              "detail": "Cyclic pitch - push the nose down or pull it up"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "A / D",
+              "detail": "Cyclic roll - bank left or right"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Shift / Ctrl",
+              "detail": "Collective - climb with Left Shift, descend with Left Ctrl"
+            },
+            {
+              "label": "Q / E",
+              "detail": "Antitorque yaw - stop the nose drifting while you hover"
+            },
+            {
+              "label": "PgUp / PgDn",
+              "detail": "Extend and retract the rescue hoist cable"
+            },
+            {
+              "label": "N / T",
+              "detail": "Toggle night vision and FLIR thermal optics"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Rotor Ops Rescue Fire Police Discord Community",
+          "description": "Collects official community channels and social updates where players can find development news, updates, and announcements. This supports searches related to Discord, updates, and developer communication.",
+          "href": "/community/rotor-ops-rescue-fire-police-discord",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Crews",
+              "detail": "Find flight medics, spotters and hoist operators for multiplayer sorties"
+            },
+            {
+              "label": "Dispatch",
+              "detail": "Simulated radio channels for coordinated emergency calls"
+            },
+            {
+              "label": "Updates",
+              "detail": "Patch notes and development news posted by the developers"
+            },
+            {
+              "label": "Fleet",
+              "detail": "Loadouts and aircraft recommendations shared by other pilots"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Rotor Ops Rescue Fire Police Updates",
+          "description": "Summarizes new features, beta changes, and future content released by the developer. This module helps returning players quickly understand what has changed in the game.",
+          "href": "/guide/rotor-ops-rescue-fire-police-update",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Patch",
+              "detail": "Overhauled mission dynamics and new dispatch triggers"
+            },
+            {
+              "label": "Firefighting",
+              "detail": "Retuned bucket, snorkel and retardant drop performance"
+            },
+            {
+              "label": "Hoist",
+              "detail": "Updated winch steps and medical evacuation flow"
+            },
+            {
+              "label": "Police",
+              "detail": "New sensor and tracking mechanics for pursuit operations"
+            },
+            {
+              "label": "Fixes",
+              "detail": "Common flight failures and error troubleshooting"
             }
           ]
         }
@@ -304,27 +410,27 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about My Seafood Stand.",
+      "description": "Quick answers to the most common questions about Rotor Ops Rescue Fire Police.",
       "items": [
         {
-          "question": "What is My Seafood Stand?",
-          "answer": "My Seafood Stand is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is Rotor Ops Rescue Fire Police?",
+          "answer": "Rotor Ops Rescue Fire Police is a Roblox emergency aviation simulator from developer Veltsim_Officiel. You fly helicopters and fixed-wing aircraft for three branches - SAMU medical evacuation, fire rescue and Gendarmerie police air support - completing hoist rescues, water drops and surveillance missions to earn credits."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Is Rotor Ops Rescue Fire Police free to play?",
+          "answer": "Yes. Rotor Ops Rescue Fire Police is free to play on Roblox and every pilot starts with a free EC145. Faster airframes such as the EC135, AS365 Dauphin and H145 are unlocked with credits earned on missions."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How do I stop my helicopter from spinning in Rotor Ops Rescue Fire Police?",
+          "answer": "Spinning comes from adding collective faster than you correct torque. In Rotor Ops Rescue Fire Police, raise Left Shift in small increments, counter the nose with the Q and E yaw controls, and soften your sensitivity curves so small cyclic inputs stay smooth."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "Are there working codes in Rotor Ops Rescue Fire Police?",
+          "answer": "There are no redeem codes in Rotor Ops Rescue Fire Police - every aircraft is unlocked with credits earned from missions. The codes page instead covers the radio 10-codes your crew runs, such as 10-8 for in service and 10-33 for emergency traffic."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Which helicopter should I buy first in Rotor Ops Rescue Fire Police?",
+          "answer": "Stay on the free EC145 until hovering and hoisting feel natural, then save roughly 160,000 credits for the EC135. In Rotor Ops Rescue Fire Police the EC135's higher agility and top speed cut response times on urban and canyon callouts."
         }
       ]
     },
