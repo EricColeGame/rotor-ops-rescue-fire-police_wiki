@@ -35,7 +35,8 @@
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Rescue Helicopter Guides",
       "tertiaryCta": "Play on Roblox",
-      "videoLabel": "Official media"
+      "videoLabel": "Official media",
+      "closeVideo": "Close"
     },
     "updates": {
       "title": "Latest Updates",
@@ -175,6 +176,8 @@
     "explore": {
       "title": "Explore Rotor Ops Rescue Fire Police Wiki",
       "description": "Every Rotor Ops Rescue Fire Police system in one place: flight controls and keybindings, helicopter and aircraft tiers, SAMU hoist rescue, aerial firefighting, Gendarmerie missions and radio dispatch codes.",
+      "readFullGuide": "Read Full Guide",
+      "tierLabel": "Tier",
       "modules": [
         {
           "order": 1,
@@ -462,7 +465,41 @@
     "readMore": "Read more",
     "officialMedia": "Official media",
     "home": "Home",
-    "noGuidesAvailable": "No guides available yet. Check back soon!"
+    "noGuidesAvailable": "No guides available yet. Check back soon!",
+    "noActiveCodes": "No active codes currently available",
+    "checkBackSoon": "Check back soon for new codes"
+  },
+  "legal": {
+    "about": {
+      "title": "About",
+      "p1": "{site} is an independent fan-built guide hub covering helicopter flight, medical hoist rescue, aerial firefighting, police air support and mission walkthroughs for {game} on Roblox.",
+      "p2": "Our goal is to help new and veteran pilots get airborne faster: how each rescue helicopter handles, which loadout fits a wildfire, how the medical chain works, and how to earn more from every mission.",
+      "p3": "The wiki is community-maintained and updated as the game receives new vehicles, missions and map changes. Spotted something out of date? Reach us at {email}."
+    },
+    "copyright": {
+      "title": "Copyright",
+      "p1": "{game}, Roblox, Veltsim_Officiel, aircraft and emergency-service imagery, logos, and related media belong to their respective owners.",
+      "p2": "This site is a non-official fan wiki built for educational and guide presentation purposes. It is not endorsed by or affiliated with the game developer or Roblox Corporation.",
+      "p3": "If you own rights to content displayed here and have a concern, please contact {email} for review."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "p1": "This fan wiki provides informational game guides for {game}. We do not request account credentials, Roblox passwords, or private payment information.",
+      "p2": "Basic analytics, advertising, and hosting providers may process standard technical information such as device type, browser, approximate region, and visited pages.",
+      "p3": "External links may lead to Roblox, Discord, YouTube, or community tools. Those services are governed by their own privacy policies.",
+      "p4": "Questions about this policy can be sent to {email}."
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "p1": "This site is an independent fan-made guide hub for {game}. Content is provided for informational and entertainment purposes only.",
+      "p2": "Game systems, missions, vehicles, and update details may change without notice. Always verify important information in-game or through official channels.",
+      "p3": "By using this site, you agree not to misuse it, attempt unauthorized access, or present this fan wiki as an official Veltsim_Officiel or Roblox property."
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The guide you are looking for may have moved or has not been added yet.",
+    "cta": "Browse Guides"
   },
   "footer": {
     "aboutTitle": "Rotor Ops Rescue Fire Police Wiki",

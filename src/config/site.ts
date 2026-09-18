@@ -34,6 +34,9 @@ export const siteConfig: SiteConfig = {
     discord: "https://discord.gg/roblox",
     youtube: "https://www.youtube.com/@Roblox",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  // ⚠️ 唯一真相源是 `src/i18n/routing.ts` 的 `routing.locales`。
+  // 本字段仅供展示/参考，无代码消费者；修改语言集合时必须与 routing.ts 同步，
+  // 否则会误导后来者把这里当成真相源，静默重新引入已移除的语言目录。
+  locales: ["en", "fr", "es", "pt"],
   defaultLocale: "en",
 };

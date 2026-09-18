@@ -1,12 +1,34 @@
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import { LegalPage } from "@/components/legal-page";
 import { siteConfig } from "@/config/site";
+import { routing } from "@/i18n/routing";
 
-export default function AboutPage() {
+const siteUrl = siteConfig.url;
+const gameName = siteConfig.name.replace(/ Wiki$/, "");
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal.about" });
+  const title = `${t("title")} — ${siteConfig.name}`;
+  const description = t("p1", { site: siteConfig.name, game: gameName });
+  return {
+    title,
+    description,
+    alternates: { canonical: `/${locale}/about`, languages: Object.fromEntries(routing.locales.map((loc) => [loc, `/${loc}/about`])) },
+    openGraph: { title, description, url: `${siteUrl}/${locale}/about`, images: [`${siteUrl}/images/hero.webp`] },
+  };
+}
+
+export default async function AboutPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal.about" });
+  const values = { site: siteConfig.name, game: gameName, email: siteConfig.supportEmail };
   return (
-    <LegalPage title="About">
-      <p>{siteConfig.name} is an independent fan-built guide hub covering helicopter flight, medical hoist rescue, aerial firefighting, police air support and mission walkthroughs for {siteConfig.name.replace(/ Wiki$/, "")} on Roblox.</p>
-      <p>Our goal is to help new and veteran pilots get airborne faster: how each rescue helicopter handles, which loadout fits a wildfire, how the medical chain works, and how to earn more from every mission.</p>
-      <p>The wiki is community-maintained and updated as the game receives new vehicles, missions and map changes. Spotted something out of date? Reach us at {siteConfig.supportEmail}.</p>
+    <LegalPage title={t("title")}>
+      <p>{t("p1", values)}</p>
+      <p>{t("p2", values)}</p>
+      <p>{t("p3", values)}</p>
     </LegalPage>
   );
 }

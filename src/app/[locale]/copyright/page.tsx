@@ -1,12 +1,34 @@
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import { LegalPage } from "@/components/legal-page";
 import { siteConfig } from "@/config/site";
+import { routing } from "@/i18n/routing";
 
-export default function CopyrightPage() {
+const siteUrl = siteConfig.url;
+const gameName = siteConfig.name.replace(/ Wiki$/, "");
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal.copyright" });
+  const title = `${t("title")} — ${siteConfig.name}`;
+  const description = t("p2");
+  return {
+    title,
+    description,
+    alternates: { canonical: `/${locale}/copyright`, languages: Object.fromEntries(routing.locales.map((loc) => [loc, `/${loc}/copyright`])) },
+    openGraph: { title, description, url: `${siteUrl}/${locale}/copyright`, images: [`${siteUrl}/images/hero.webp`] },
+  };
+}
+
+export default async function CopyrightPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal.copyright" });
+  const values = { site: siteConfig.name, game: gameName, email: siteConfig.supportEmail };
   return (
-    <LegalPage title="Copyright">
-      <p>Rotor Ops Rescue Fire Police, Roblox, Veltsim_Officiel, aircraft and emergency-service imagery, logos, and related media belong to their respective owners.</p>
-      <p>This site is a non-official fan wiki built for educational and guide presentation purposes. It is not endorsed by or affiliated with the game developer or Roblox Corporation.</p>
-      <p>If you own rights to content displayed here and have a concern, please contact {siteConfig.supportEmail} for review.</p>
+    <LegalPage title={t("title")}>
+      <p>{t("p1", values)}</p>
+      <p>{t("p2", values)}</p>
+      <p>{t("p3", values)}</p>
     </LegalPage>
   );
 }

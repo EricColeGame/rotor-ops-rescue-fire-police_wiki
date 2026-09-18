@@ -1,12 +1,34 @@
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import { LegalPage } from "@/components/legal-page";
 import { siteConfig } from "@/config/site";
+import { routing } from "@/i18n/routing";
 
-export default function TermsOfServicePage() {
+const siteUrl = siteConfig.url;
+const gameName = siteConfig.name.replace(/ Wiki$/, "");
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal.terms" });
+  const title = `${t("title")} — ${siteConfig.name}`;
+  const description = t("p1", { game: gameName });
+  return {
+    title,
+    description,
+    alternates: { canonical: `/${locale}/terms-of-service`, languages: Object.fromEntries(routing.locales.map((loc) => [loc, `/${loc}/terms-of-service`])) },
+    openGraph: { title, description, url: `${siteUrl}/${locale}/terms-of-service`, images: [`${siteUrl}/images/hero.webp`] },
+  };
+}
+
+export default async function TermsOfServicePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "legal.terms" });
+  const values = { site: siteConfig.name, game: gameName, email: siteConfig.supportEmail };
   return (
-    <LegalPage title="Terms of Service">
-      <p>This site is an independent fan-made guide hub for {siteConfig.name.replace(/ Wiki$/, "")}. Content is provided for informational and entertainment purposes only.</p>
-      <p>Game systems, missions, vehicles, and update details may change without notice. Always verify important information in-game or through official channels.</p>
-      <p>By using this site, you agree not to misuse it, attempt unauthorized access, or present this fan wiki as an official Veltsim_Officiel or Roblox property.</p>
+    <LegalPage title={t("title")}>
+      <p>{t("p1", values)}</p>
+      <p>{t("p2", values)}</p>
+      <p>{t("p3", values)}</p>
     </LegalPage>
   );
 }

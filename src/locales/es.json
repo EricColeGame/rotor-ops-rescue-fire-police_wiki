@@ -1,1 +1,547 @@
-{}
+{
+  "site": {
+    "name": "Rotor Ops Rescue Fire Police Wiki",
+    "shortName": "Rotor Ops",
+    "tagline": "Guías de rescate en helicóptero, lucha aérea contra incendios y operaciones policiales",
+    "description": "¡Tu guía definitiva de Rotor Ops Rescue Fire Police en Roblox! Aprende los controles del helicóptero, el rescate médico con grúa, la lucha aérea contra incendios, el apoyo aéreo policial, el desarrollo de las misiones y los consejos de progresión.",
+    "legalNotice": "Wiki de fans no oficial. Hecha por jugadores, para jugadores."
+  },
+  "nav": {
+    "home": "Inicio",
+    "guide": "Guía",
+    "controls": "Controles",
+    "vehicles": "Vehículos",
+    "missions": "Misiones",
+    "mechanics": "Mecánicas",
+    "community": "Comunidad",
+    "menu": "Menú",
+    "toggleTheme": "Cambiar tema"
+  },
+  "home": {
+    "meta": {
+      "title": "Wiki de Rotor Ops Rescue Fire Police - Códigos y guía",
+      "description": "La wiki de Rotor Ops Rescue Fire Police ofrece guías de helicóptero, misiones de rescate, consejos para extinguir incendios, operaciones policiales e información de juego de Roblox para los jugadores."
+    },
+    "hero": {
+      "eyebrow": "Simulador de helicóptero de rescate de emergencia",
+      "title": "Rotor Ops Rescue Fire Police Wiki",
+      "description": "Rotor Ops Rescue Fire Police es un juego de simulación de emergencias en Roblox en el que los jugadores pilotan helicópteros de rescate, combaten incendios, apoyan misiones policiales y completan operaciones de rescate aéreo en equipo.",
+      "stats": [
+        "1,5 M+ de visitas",
+        "4+ helicópteros de rescate",
+        "0 códigos activos",
+        "Actualizaciones semanales"
+      ],
+      "primaryCta": "Guía para principiantes",
+      "secondaryCta": "Guías de helicópteros de rescate",
+      "tertiaryCta": "Jugar en Roblox",
+      "videoLabel": "Contenido oficial",
+      "closeVideo": "Cerrar"
+    },
+    "updates": {
+      "title": "Últimas actualizaciones",
+      "browse": "Ver todas las guías",
+      "viewAll": "Ver todo"
+    },
+    "start": {
+      "eyebrow": "Empieza aquí",
+      "title": "Tu recorrido por Rotor Ops Rescue Fire Police",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guía para principiantes",
+          "description": "Descubre cómo funcionan las ramas SAMU, rescate de incendios y Gendarmería, cómo despegar con limpieza y cómo atender tus primeros avisos sin destrozar el fuselaje."
+        },
+        {
+          "number": "2",
+          "title": "Controles del helicóptero",
+          "description": "Domina el colectivo, el cíclico y el antipar, además de los atajos que evitan que tu helicóptero de Rotor Ops Rescue Fire Police gire al despegar."
+        },
+        {
+          "number": "3",
+          "title": "Misiones de rescate",
+          "description": "Repasa las extracciones médicas con grúa, los lanzamientos de agua sobre incendios forestales y las órbitas de vigilancia policial, y comprueba qué avisos pagan más créditos."
+        },
+        {
+          "number": "4",
+          "title": "Códigos y radio",
+          "description": "Descifra los códigos 10 que tu tripulación usa por radio, desde el 10-8 en servicio hasta el 10-33 tráfico de emergencia, para que cada llamada sea breve y clara."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Tendencias actuales",
+      "quickLinks": [
+        "Guía para principiantes",
+        "Controles del helicóptero",
+        "Misiones de rescate",
+        "Lista de aeronaves"
+      ],
+      "cards": [
+        {
+          "badge": "Principiante",
+          "title": "Guía para principiantes",
+          "description": "Desde tu primer vuelo de tutorial hasta tus primeros avisos remunerados de SAMU, incendios y Gendarmería.",
+          "href": "/guide/rotor-ops-rescue-fire-police-beginner-guide"
+        },
+        {
+          "badge": "Actualizado",
+          "title": "Controles del helicóptero",
+          "description": "Colectivo, cíclico, antipar y la tabla completa de atajos para teclado, mando y HOTAS.",
+          "href": "/controls/rotor-ops-rescue-fire-police-controls"
+        },
+        {
+          "badge": "Popular",
+          "title": "Misiones de rescate",
+          "description": "Evacuaciones médicas del SAMU, extinción de incendios forestales y vigilancia de la Gendarmería con recompensas en créditos.",
+          "href": "/missions/rotor-ops-rescue-fire-police-rescue-missions"
+        },
+        {
+          "badge": "Popular",
+          "title": "Flota de helicópteros y costes",
+          "description": "EC145, EC135, AS365 Dauphin y H145 comparados por velocidad, agilidad y precio en créditos.",
+          "href": "/vehicles/rotor-ops-rescue-fire-police-helicopter"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Mecánicas del rescate con grúa",
+          "description": "El procedimiento de izado en cinco pasos, los roles de la tripulación y la disciplina de vuelo estacionario que lo mantiene estable.",
+          "href": "/mechanics/rotor-ops-rescue-fire-police-hoist-rescue"
+        },
+        {
+          "badge": "Popular",
+          "title": "Lucha aérea contra incendios",
+          "description": "Técnica de lanzamiento con cubeta Bambi y avión cisterna, gestión del viento y estabilización a baja altitud.",
+          "href": "/mechanics/rotor-ops-rescue-fire-police-water-drop"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Apoyo aéreo policial",
+          "description": "Seguimiento FLIR, barrido del foco y mantenimiento de órbita para las operaciones de persecución de la Gendarmería.",
+          "href": "/missions/rotor-ops-rescue-fire-police-police-missions"
+        },
+        {
+          "badge": "Actualizado",
+          "title": "Códigos de radio",
+          "description": "Los códigos 10 de APCO que las tripulaciones usan por radio, desde el 10-4 de acuse de recibo hasta el 10-33 tráfico de emergencia.",
+          "href": "/community/rotor-ops-rescue-fire-police-codes"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Últimas notas del parche",
+          "description": "Dinámica de misiones, rendimiento de los lanzamientos y cambios en la grúa en la última actualización de Rotor Ops.",
+          "href": "/guide/rotor-ops-rescue-fire-police-update"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "¿Qué es Rotor Ops Rescue Fire Police?",
+      "paragraphs": [
+        "Rotor Ops Rescue Fire Police es un simulador de aviación de emergencia en Roblox del desarrollador Veltsim_Officiel. Pilotas aeronaves de ala rotatoria y de ala fija para tres ramas: evacuación médica del SAMU, rescate de incendios de la Sécurité Civile y apoyo aéreo policial de la Gendarmerie Nationale. Cada aviso te sitúa en un trabajo distinto, desde izar a un excursionista herido en una pared rocosa hasta arrojar agua sobre un incendio forestal que se extiende.",
+        "Los pilotos empiezan con un EC145 gratuito y ganan créditos completando avisos, y después los reinvierten en fuselajes más rápidos como el EC135, el AS365 Dauphin y el H145. Nuestra wiki cubre todo el ciclo: controles de vuelo y atajos, procedimientos de rescate con grúa, técnica de lanzamiento de agua, niveles y costes de las aeronaves, guías de misiones y los códigos de radio que las tripulaciones usan en multijugador."
+      ],
+      "stats": [
+        {
+          "label": "Desarrollador",
+          "value": "Veltsim_Officiel"
+        },
+        {
+          "label": "Plataforma",
+          "value": "Roblox"
+        },
+        {
+          "label": "Género",
+          "value": "Simulación de aviación de emergencia"
+        },
+        {
+          "label": "Ramas de servicio",
+          "value": "3"
+        },
+        {
+          "label": "Aeronave inicial",
+          "value": "EC145 (gratis)"
+        },
+        {
+          "label": "Visitas",
+          "value": "1,5 M+"
+        },
+        {
+          "label": "Estado",
+          "value": "BETA abierta"
+        }
+      ],
+      "cta": "Explorar todas las guías"
+    },
+    "explore": {
+      "title": "Explora la wiki de Rotor Ops Rescue Fire Police",
+      "description": "Todos los sistemas de Rotor Ops Rescue Fire Police en un solo lugar: controles de vuelo y atajos, niveles de helicópteros y aeronaves, rescate del SAMU con grúa, lucha aérea contra incendios, misiones de la Gendarmería y códigos de radio.",
+      "readFullGuide": "Leer la guía completa",
+      "tierLabel": "Nivel",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guía de misiones de Rotor Ops Rescue Fire Police",
+          "description": "Cubre las principales misiones de emergencia de Rotor Ops Rescue Fire Police, incluidos el rescate en helicóptero, las operaciones de extinción de incendios y las tareas de apoyo aéreo policial. Este módulo ayuda a los jugadores nuevos a entender los objetivos de las misiones, los roles del equipo y cómo completar distintos escenarios con eficacia.",
+          "href": "/missions/rotor-ops-rescue-fire-police-rescue-missions",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Atiende el aviso y comprueba qué rama solicita apoyo aéreo"
+            },
+            {
+              "label": "2",
+              "detail": "Elige el fuselaje que encaja con el trabajo: EC145 para evacuación médica, helicópteros con cubeta para incendios"
+            },
+            {
+              "label": "3",
+              "detail": "Vuela la ruta asignada e informa de tu posición al mando de incidentes"
+            },
+            {
+              "label": "4",
+              "detail": "Haz vuelo estacionario sobre el objetivo y ejecuta la grúa, el lanzamiento de agua o la órbita de vigilancia"
+            },
+            {
+              "label": "5",
+              "detail": "Entrega al paciente, el lanzamiento o la posición del sospechoso y confirma el cierre del aviso"
+            },
+            {
+              "label": "6",
+              "detail": "Ingresa los créditos y reinviértelos en un fuselaje más rápido"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guía de helicópteros de Rotor Ops Rescue Fire Police",
+          "description": "Presenta los helicópteros y aeronaves de rescate disponibles, explicando su papel en el rescate médico, la extinción de incendios y las operaciones de vigilancia. Los jugadores aprenden qué aeronave encaja con cada tipo de misión y cómo se usan las herramientas aéreas.",
+          "href": "/vehicles/rotor-ops-rescue-fire-police-helicopter",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "EC145",
+              "detail": "Plataforma inicial gratuita para tus primeras salidas médicas y de izado"
+            },
+            {
+              "label": "EC135",
+              "detail": "Unos 160.000 créditos, lo bastante ágil para aterrizar en tejados urbanos"
+            },
+            {
+              "label": "AS365",
+              "detail": "Interceptor policial de alta velocidad diseñado para operaciones nocturnas"
+            },
+            {
+              "label": "H145",
+              "detail": "Fuselaje médico premium para rescates en montaña y con ráfagas"
+            },
+            {
+              "label": "CL-415",
+              "detail": "Avión bombardero de agua de ala fija para sofocar grandes incendios forestales"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guía para principiantes de Rotor Ops Rescue Fire Police",
+          "description": "Ofrece una guía de inicio para jugadores nuevos, explicando los controles básicos, los procedimientos de emergencia, la cooperación en equipo y la preparación de misiones. Está orientada a las búsquedas de jugadores que quieren saber cómo jugar a Rotor Ops Rescue Fire Police con eficacia.",
+          "href": "/guide/rotor-ops-rescue-fire-police-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Termina el vuelo de tutorial y aprende el colectivo, el cíclico y la guiñada"
+            },
+            {
+              "label": "2",
+              "detail": "Elige tu rama: SAMU médico, rescate de incendios o policía de la Gendarmería"
+            },
+            {
+              "label": "3",
+              "detail": "Practica un vuelo estacionario estable antes de aceptar tu primer aviso real"
+            },
+            {
+              "label": "4",
+              "detail": "Atiende avisos médicos de bajo riesgo para acumular créditos y horas de vuelo"
+            },
+            {
+              "label": "5",
+              "detail": "Estudia el viento y el terreno antes de intentar misiones forestales o de montaña"
+            },
+            {
+              "label": "6",
+              "detail": "Ahorra tus primeros 160.000 créditos para la mejora al EC135"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Lista de vehículos de Rotor Ops Rescue Fire Police",
+          "description": "Muestra los distintos vehículos de emergencia y equipos que aparecen en el juego, incluidos helicópteros de rescate, aeronaves de extinción de incendios y herramientas de apoyo policial. Esto ayuda a los usuarios que buscan los vehículos disponibles y las funciones de juego.",
+          "href": "/vehicles/rotor-ops-rescue-fire-police-aircraft",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Helicóptero",
+              "detail": "Plataformas de ala rotatoria usadas para evacuación médica, izado y vigilancia"
+            },
+            {
+              "label": "Avión cisterna",
+              "detail": "Bombarderos de agua de ala fija como el CL-415 y el Dash 8"
+            },
+            {
+              "label": "Equipamiento",
+              "detail": "Cubetas Bambi, compuertas de lanzamiento, depósitos de espuma, grúas de rescate y cámaras FLIR"
+            },
+            {
+              "label": "Mejoras",
+              "detail": "Costes en créditos de cada fuselaje y el orden en que conviene comprarlos"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Códigos de Rotor Ops Rescue Fire Police",
+          "description": "Cubre los códigos de radio que las tripulaciones usan en Rotor Ops Rescue Fire Police, incluidos los códigos 10 de APCO para estado, ubicación y tráfico de emergencia. No hay códigos canjeables en el juego, así que cada aeronave se desbloquea con los créditos ganados en las misiones.",
+          "href": "/community/rotor-ops-rescue-fire-police-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "10-4",
+              "detail": "Acuse de recibo - transmisión recibida y entendida"
+            },
+            {
+              "label": "10-8",
+              "detail": "En servicio y disponible para asignación"
+            },
+            {
+              "label": "10-20",
+              "detail": "Ubicación actual - comunica coordenadas o un punto de ruta"
+            },
+            {
+              "label": "10-23",
+              "detail": "Llegada al lugar - vuelo estacionario de rescate establecido"
+            },
+            {
+              "label": "10-33",
+              "detail": "Tráfico de emergencia - libera la frecuencia para una llamada vital"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guía de controles de Rotor Ops Rescue Fire Police",
+          "description": "Explica los controles de juego y los sistemas de interacción, como pilotar helicópteros, manejar el equipo de rescate y coordinar las respuestas de emergencia. Es útil para jugadores que buscan instrucciones de teclado y de juego.",
+          "href": "/controls/rotor-ops-rescue-fire-police-controls",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "W / S",
+              "detail": "Cíclico de cabeceo - baja la nariz o súbela"
+            },
+            {
+              "label": "A / D",
+              "detail": "Cíclico de alabeo - inclínate a la izquierda o a la derecha"
+            },
+            {
+              "label": "Shift / Ctrl",
+              "detail": "Colectivo - asciende con Mayús izquierda, desciende con Ctrl izquierda"
+            },
+            {
+              "label": "Q / E",
+              "detail": "Guiñada antipar - evita que la nariz derive mientras haces vuelo estacionario"
+            },
+            {
+              "label": "PgUp / PgDn",
+              "detail": "Extiende y recoge el cable de la grúa de rescate"
+            },
+            {
+              "label": "N / T",
+              "detail": "Activa la visión nocturna y la óptica térmica FLIR"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Comunidad de Discord de Rotor Ops Rescue Fire Police",
+          "description": "Reúne los canales comunitarios oficiales y las novedades sociales donde los jugadores encuentran noticias de desarrollo, actualizaciones y anuncios. Esto respalda las búsquedas relacionadas con Discord, actualizaciones y comunicación de los desarrolladores.",
+          "href": "/community/rotor-ops-rescue-fire-police-discord",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Tripulaciones",
+              "detail": "Encuentra médicos de vuelo, observadores y operadores de grúa para salidas multijugador"
+            },
+            {
+              "label": "Asignación",
+              "detail": "Canales de radio simulados para llamadas de emergencia coordinadas"
+            },
+            {
+              "label": "Actualizaciones",
+              "detail": "Notas de parche y noticias de desarrollo publicadas por los desarrolladores"
+            },
+            {
+              "label": "Flota",
+              "detail": "Configuraciones y recomendaciones de aeronaves compartidas por otros pilotos"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Actualizaciones de Rotor Ops Rescue Fire Police",
+          "description": "Resume las nuevas funciones, los cambios de la beta y el contenido futuro publicado por el desarrollador. Este módulo ayuda a los jugadores que regresan a entender rápido qué ha cambiado en el juego.",
+          "href": "/guide/rotor-ops-rescue-fire-police-update",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Parche",
+              "detail": "Dinámica de misiones renovada y nuevos desencadenantes de avisos"
+            },
+            {
+              "label": "Incendios",
+              "detail": "Rendimiento de los lanzamientos con cubeta, esnórquel y retardante reajustado"
+            },
+            {
+              "label": "Grúa",
+              "detail": "Pasos de izado y flujo de evacuación médica actualizados"
+            },
+            {
+              "label": "Policía",
+              "detail": "Nuevas mecánicas de sensores y seguimiento para operaciones de persecución"
+            },
+            {
+              "label": "Correcciones",
+              "detail": "Fallos de vuelo habituales y solución de errores"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "description": "Respuestas rápidas a las preguntas más comunes sobre Rotor Ops Rescue Fire Police.",
+      "items": [
+        {
+          "question": "¿Qué es Rotor Ops Rescue Fire Police?",
+          "answer": "Rotor Ops Rescue Fire Police es un simulador de aviación de emergencia en Roblox del desarrollador Veltsim_Officiel. Pilotas helicópteros y aeronaves de ala fija para tres ramas - evacuación médica del SAMU, rescate de incendios y apoyo aéreo policial de la Gendarmería - completando rescates con grúa, lanzamientos de agua y misiones de vigilancia para ganar créditos."
+        },
+        {
+          "question": "¿Rotor Ops Rescue Fire Police es gratis?",
+          "answer": "Sí. Rotor Ops Rescue Fire Police es gratis en Roblox y cada piloto empieza con un EC145 gratuito. Los fuselajes más rápidos, como el EC135, el AS365 Dauphin y el H145, se desbloquean con los créditos ganados en las misiones."
+        },
+        {
+          "question": "¿Cómo evito que mi helicóptero gire en Rotor Ops Rescue Fire Police?",
+          "answer": "El giro viene de añadir colectivo más rápido de lo que corriges el par. En Rotor Ops Rescue Fire Police, sube la Mayús izquierda en incrementos pequeños, compensa la nariz con los controles de guiñada Q y E, y suaviza tus curvas de sensibilidad para que las entradas pequeñas de cíclico sigan siendo fluidas."
+        },
+        {
+          "question": "¿Hay códigos que funcionen en Rotor Ops Rescue Fire Police?",
+          "answer": "No hay códigos canjeables en Rotor Ops Rescue Fire Police: cada aeronave se desbloquea con los créditos ganados en las misiones. La página de códigos cubre en su lugar los códigos de radio 10 que usa tu tripulación, como el 10-8 en servicio y el 10-33 tráfico de emergencia."
+        },
+        {
+          "question": "¿Qué helicóptero debería comprar primero en Rotor Ops Rescue Fire Police?",
+          "answer": "Quédate con el EC145 gratuito hasta que el vuelo estacionario y el izado te resulten naturales, y luego ahorra unos 160.000 créditos para el EC135. En Rotor Ops Rescue Fire Police, la mayor agilidad y velocidad punta del EC135 reducen los tiempos de respuesta en avisos urbanos y de cañón."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "¿Listo para dominar Rotor Ops Rescue Fire Police?",
+      "description": "Desde tu primer vuelo en helicóptero hasta la extinción de incendios nocturna y los rescates médicos con grúa, nuestra wiki comunitaria cubre cada tipo de misión con guías gratuitas y actualizadas.",
+      "primary": "Leer la guía para principiantes",
+      "secondary": "Jugar en Roblox"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Navegación de la wiki",
+    "activeCodes": "Códigos activos",
+    "updated": "Actualizado",
+    "viewAllCodes": "Ver todos los códigos",
+    "playOnRoblox": "Jugar en Roblox",
+    "inThisSection": "En esta sección",
+    "tableOfContents": "Índice de contenidos",
+    "nextSteps": "Siguientes pasos",
+    "needHelp": "¿Necesitas ayuda?",
+    "relatedReading": "Lecturas relacionadas",
+    "relatedGuides": "Guías relacionadas",
+    "readMore": "Leer más",
+    "officialMedia": "Contenido oficial",
+    "home": "Inicio",
+    "noGuidesAvailable": "Todavía no hay guías disponibles. ¡Vuelve pronto!",
+    "noActiveCodes": "Ahora mismo no hay códigos activos",
+    "checkBackSoon": "Vuelve pronto para ver códigos nuevos"
+  },
+  "legal": {
+    "about": {
+      "title": "Acerca de",
+      "p1": "{site} es un centro de guías independiente creado por fans que cubre el vuelo en helicóptero, el rescate médico con grúa, la lucha aérea contra incendios, el apoyo aéreo policial y el desarrollo de misiones de {game} en Roblox.",
+      "p2": "Nuestro objetivo es ayudar a los pilotos nuevos y veteranos a despegar antes: cómo se comporta cada helicóptero de rescate, qué configuración encaja con un incendio forestal, cómo funciona la cadena médica y cómo ganar más en cada misión.",
+      "p3": "La wiki la mantiene la comunidad y se actualiza a medida que el juego recibe nuevos vehículos, misiones y cambios de mapa. ¿Has visto algo desactualizado? Escríbenos a {email}."
+    },
+    "copyright": {
+      "title": "Derechos de autor",
+      "p1": "{game}, Roblox, Veltsim_Officiel, las imágenes de aeronaves y servicios de emergencia, los logotipos y los medios relacionados pertenecen a sus respectivos propietarios.",
+      "p2": "Este sitio es una wiki de fans no oficial creada con fines educativos y de presentación de guías. No está respaldada por el desarrollador del juego ni por Roblox Corporation, ni está afiliada a ellos.",
+      "p3": "Si posees derechos sobre contenido mostrado aquí y tienes alguna objeción, escribe a {email} para que lo revisemos."
+    },
+    "privacy": {
+      "title": "Política de privacidad",
+      "p1": "Esta wiki de fans ofrece guías informativas del juego para {game}. No solicitamos credenciales de cuenta, contraseñas de Roblox ni información de pago privada.",
+      "p2": "Los proveedores de analítica, publicidad y alojamiento pueden tratar información técnica estándar, como el tipo de dispositivo, el navegador, la región aproximada y las páginas visitadas.",
+      "p3": "Los enlaces externos pueden llevar a Roblox, Discord, YouTube o herramientas comunitarias. Esos servicios se rigen por sus propias políticas de privacidad.",
+      "p4": "Las preguntas sobre esta política pueden enviarse a {email}."
+    },
+    "terms": {
+      "title": "Términos de servicio",
+      "p1": "Este sitio es un centro de guías independiente hecho por fans para {game}. El contenido se ofrece únicamente con fines informativos y de entretenimiento.",
+      "p2": "Los sistemas del juego, las misiones, los vehículos y los detalles de las actualizaciones pueden cambiar sin aviso. Verifica siempre la información importante dentro del juego o por los canales oficiales.",
+      "p3": "Al usar este sitio, aceptas no hacer un uso indebido, no intentar accesos no autorizados y no presentar esta wiki de fans como una propiedad oficial de Veltsim_Officiel o de Roblox."
+    }
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "La guía que buscas puede haberse movido o todavía no se ha añadido.",
+    "cta": "Ver las guías"
+  },
+  "footer": {
+    "aboutTitle": "Rotor Ops Rescue Fire Police Wiki",
+    "about": "La wiki de Rotor Ops Rescue Fire Police es un centro de guías independiente creado por fans que cubre el vuelo en helicóptero, el rescate médico con grúa, la lucha aérea contra incendios, el apoyo aéreo policial y el desarrollo de misiones para los jugadores de Roblox.",
+    "quickLinks": "Enlaces rápidos",
+    "guides": "Guías",
+    "legal": "Legal",
+    "copyright": "2026 Wiki de Rotor Ops Rescue Fire Police. Sin afiliación con Veltsim_Officiel ni con Roblox.",
+    "description": "Simulador de aviación de emergencia en Roblox: pilota helicópteros de rescate, combate incendios forestales y apoya misiones policiales con tu escuadrón.",
+    "playGame": "Jugar a Rotor Ops en Roblox",
+    "officialDiscord": "Discord oficial de Roblox",
+    "officialYoutube": "YouTube oficial de Roblox",
+    "vvBuilder": "Guías de helicópteros de rescate",
+    "beginnerGuide": "Guía para principiantes",
+    "aircraftGuides": "Guías de helicópteros y aeronaves",
+    "missionGuides": "Guías de misiones",
+    "communityGuides": "Códigos y comunidad",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio"
+  },
+  "guide": {
+    "overviewTitle": "Guías y tutoriales de Rotor Ops Rescue Fire Police",
+    "overviewDescription": "Tutoriales para principiantes, consejos de vuelo y guías de misión paso a paso para Rotor Ops Rescue Fire Police en Roblox."
+  },
+  "controls": {
+    "overviewTitle": "Controles y atajos de Rotor Ops Rescue Fire Police",
+    "overviewDescription": "Disposiciones completas de teclado y controles de vuelo, técnicas de vuelo estacionario y procedimientos de aterrizaje seguros para Rotor Ops Rescue Fire Police."
+  },
+  "vehicles": {
+    "overviewTitle": "Helicópteros y aeronaves de Rotor Ops Rescue Fire Police",
+    "overviewDescription": "Todos los fuselajes de rescate, extinción de incendios y policía de Rotor Ops Rescue Fire Police, con roles, manejo y consejos de configuración."
+  },
+  "missions": {
+    "overviewTitle": "Misiones y operaciones de Rotor Ops Rescue Fire Police",
+    "overviewDescription": "Los tipos de misión de rescate, incendios y policía explicados, con objetivos, flujo de avisos y detalles de recompensas para Rotor Ops Rescue Fire Police."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecánicas de juego de Rotor Ops Rescue Fire Police",
+    "overviewDescription": "Rescate con grúa, lanzamientos de agua, sistemas de extinción de incendios y las mecánicas de simulación de vuelo que sostienen Rotor Ops Rescue Fire Police."
+  },
+  "community": {
+    "overviewTitle": "Códigos y comunidad de Rotor Ops Rescue Fire Police",
+    "overviewDescription": "Códigos activos de Rotor Ops Rescue Fire Police, centros de Discord y Reddit, canales de YouTube y enlaces de servidores para jugadores activos."
+  }
+}

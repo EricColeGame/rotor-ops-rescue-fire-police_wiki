@@ -32,10 +32,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: { default: "Rotor Ops Rescue Fire Police Wiki", template: "%s" },
     description: "Complete Rotor Ops Rescue Fire Police fan wiki with helicopter guides, rescue missions, firefighting tips, police operations and Roblox gameplay walkthroughs.",
     keywords: ["Rotor Ops Rescue Fire Police", "Roblox", "helicopter simulator", "rescue game", "fire rescue", "police aviation"],
-    // NOTE: no `alternates.canonical` here — this metadata is inherited by pages that
-    // define none of their own (about/privacy-policy/terms-of-service/copyright), and a
-    // layout-level canonical would point every one of them at the locale homepage.
-    // Home and [...slug] pages declare their own canonical.
+    // NOTE: no `alternates.canonical` here — a layout-level canonical would point
+    // every page that inherits it at the locale homepage. Home, [...slug] and the
+    // four legal pages (about/copyright/privacy-policy/terms-of-service) each
+    // declare their own canonical and hreflang alternates.
     openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, title: "Rotor Ops Rescue Fire Police Wiki", description: "Complete Rotor Ops Rescue Fire Police fan wiki with helicopter guides, rescue missions, firefighting tips, police operations and Roblox gameplay walkthroughs.", images: [{ url: image, width: 768, height: 432, alt: `${siteConfig.name} key art` }] },
     twitter: { card: "summary_large_image", title: "Rotor Ops Rescue Fire Police Wiki", description: "Complete Rotor Ops Rescue Fire Police fan wiki with helicopter guides, rescue missions, firefighting tips, police operations and Roblox gameplay walkthroughs.", images: [image] },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),
