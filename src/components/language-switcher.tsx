@@ -11,23 +11,18 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
-const LOCALE_LABELS: Record<string, string> = {
+/**
+ * 语言标签（语言集合的第三处），键必须与 `src/i18n/routing.ts` 的 locales 完全一致。
+ * `satisfies Record<Locale, string>` 会在编译期检查遗漏与多余的键。
+ */
+const localeLabels = {
   en: "English",
+  fr: "Français",
   es: "Español",
   pt: "Português",
-  de: "Deutsch",
-  fr: "Français",
-  ja: "日本語",
-  zh: "简体中文",
-  ko: "한국어",
-  ru: "Русский",
-  it: "Italiano",
-  ar: "العربية",
-  th: "ไทย",
-  vi: "Tiếng Việt",
-  id: "Bahasa Indonesia",
-  tr: "Türkçe",
-};
+} satisfies Record<Locale, string>;
+
+type LocaleLabelKey = keyof typeof localeLabels;
 
 /**
  * 语言切换器（下拉菜单版）：点击 Globe 图标展开所有语言列表
@@ -58,7 +53,7 @@ export function LanguageSwitcher({ locale }: { locale: string }) {
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" size="sm" className="gap-1.5 text-xs font-medium text-muted-foreground hover:text-foreground">
           <Globe className="h-4 w-4" />
-          <span>{LOCALE_LABELS[locale] || locale.toUpperCase()}</span>
+          <span>{localeLabels[locale as LocaleLabelKey] || locale.toUpperCase()}</span>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="min-w-[140px]">
@@ -68,7 +63,7 @@ export function LanguageSwitcher({ locale }: { locale: string }) {
             onClick={() => handleSwitch(loc)}
             className="flex items-center justify-between gap-3"
           >
-            <span>{LOCALE_LABELS[loc] || loc.toUpperCase()}</span>
+            <span>{localeLabels[loc as LocaleLabelKey] || loc.toUpperCase()}</span>
             {loc === (locale as Locale) && <Check className="h-4 w-4 text-[hsl(var(--nav-theme))]" />}
           </DropdownMenuItem>
         ))}
