@@ -236,40 +236,63 @@ export interface NavGroup {
 }
 
 // 分组标题映射：slug → 人类可读标题（默认英文）
+// slug 必须与 NAVIGATION_CONFIG 的分类 key 及 content/<locale>/ 的子目录名一致
 const GROUP_TITLES: Record<string, string> = {
-  bosses: "Bosses",
-  races: "Races",
-  maps: "Maps & Areas",
-  skills: "Skills",
-  codes: "Codes",
-  guide: "Getting Started",
-  "tier-list": "Tier Lists",
+  guide: "Guides",
+  controls: "Controls",
+  vehicles: "Helicopters & Aircraft",
+  missions: "Missions",
+  mechanics: "Mechanics",
+  community: "Codes & Community",
 };
 
-// 日文分组标题映射
-const GROUP_TITLES_JA: Record<string, string> = {
-  bosses: "ボス",
-  races: "種族",
-  maps: "マップ & エリア",
-  skills: "スキル",
-  codes: "コード",
-  guide: "初心者ガイド",
-  "tier-list": "Tier List",
+// 法语分组标题映射
+const GROUP_TITLES_FR: Record<string, string> = {
+  guide: "Guides",
+  controls: "Commandes",
+  vehicles: "Hélicoptères et aéronefs",
+  missions: "Missions",
+  mechanics: "Mécaniques",
+  community: "Codes et communauté",
+};
+
+// 西班牙语分组标题映射
+const GROUP_TITLES_ES: Record<string, string> = {
+  guide: "Guías",
+  controls: "Controles",
+  vehicles: "Helicópteros y aeronaves",
+  missions: "Misiones",
+  mechanics: "Mecánicas",
+  community: "Códigos y comunidad",
+};
+
+// 葡萄牙语分组标题映射
+const GROUP_TITLES_PT: Record<string, string> = {
+  guide: "Guias",
+  controls: "Controles",
+  vehicles: "Helicópteros e aeronaves",
+  missions: "Missões",
+  mechanics: "Mecânicas",
+  community: "Códigos e comunidade",
 };
 
 // locale → 分组标题映射
 const GROUP_TITLES_BY_LOCALE: Record<string, Record<string, string>> = {
-  ja: GROUP_TITLES_JA,
+  fr: GROUP_TITLES_FR,
+  es: GROUP_TITLES_ES,
+  pt: GROUP_TITLES_PT,
 };
 
 // locale → "Overview" 翻译
 const OVERVIEW_LABEL_BY_LOCALE: Record<string, string> = {
-  ja: "一覧",
+  fr: "Aperçu",
+  es: "Resumen",
+  pt: "Visão geral",
 };
 
-// 分组排序顺序
+// 分组排序顺序（与 NAVIGATION_CONFIG 的导航顺序保持一致）
 const GROUP_ORDER: string[] = [
-  "guide", "races", "bosses", "maps", "skills", "codes", "tier-list",
+  "guide", "controls", "vehicles", "missions", "mechanics", "community",
 ];
 
 /**

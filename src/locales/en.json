@@ -8,6 +8,12 @@
   },
   "nav": {
     "home": "Home",
+    "guide": "Guide",
+    "controls": "Controls",
+    "vehicles": "Vehicles",
+    "missions": "Missions",
+    "mechanics": "Mechanics",
+    "community": "Community",
     "menu": "Menu",
     "toggleTheme": "Toggle theme"
   },
@@ -441,7 +447,6 @@
       "secondary": "Play on Roblox"
     }
   },
-  "bosses": {},
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -472,10 +477,34 @@
     "officialYoutube": "Roblox Official YouTube",
     "vvBuilder": "Rescue Helicopter Guides",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Codes",
+    "aircraftGuides": "Helicopter & Aircraft Guides",
+    "missionGuides": "Mission Guides",
+    "communityGuides": "Codes & Community",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
+  },
+  "guide": {
+    "overviewTitle": "Rotor Ops Rescue Fire Police Guides & Walkthroughs",
+    "overviewDescription": "Beginner walkthroughs, flight tips and step-by-step mission guides for Rotor Ops Rescue Fire Police on Roblox."
+  },
+  "controls": {
+    "overviewTitle": "Rotor Ops Rescue Fire Police Controls & Keybinds",
+    "overviewDescription": "Full keyboard and flight control layouts, hover techniques and safe landing procedures for Rotor Ops Rescue Fire Police."
+  },
+  "vehicles": {
+    "overviewTitle": "Rotor Ops Rescue Fire Police Helicopters & Aircraft",
+    "overviewDescription": "Every rescue, firefighting and police airframe in Rotor Ops Rescue Fire Police, with roles, handling and loadout advice."
+  },
+  "missions": {
+    "overviewTitle": "Rotor Ops Rescue Fire Police Missions & Operations",
+    "overviewDescription": "Rescue, fire and police mission types explained, with objectives, callout flow and reward details for Rotor Ops Rescue Fire Police."
+  },
+  "mechanics": {
+    "overviewTitle": "Rotor Ops Rescue Fire Police Gameplay Mechanics",
+    "overviewDescription": "Hoist rescue, water drops, firefighting systems and the core flight simulation mechanics behind Rotor Ops Rescue Fire Police."
+  },
+  "community": {
+    "overviewTitle": "Rotor Ops Rescue Fire Police Codes & Community",
+    "overviewDescription": "Working Rotor Ops Rescue Fire Police codes, Discord and Reddit hubs, YouTube channels and server links for active players."
   }
 }

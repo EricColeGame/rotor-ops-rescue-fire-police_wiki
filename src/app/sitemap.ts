@@ -9,17 +9,17 @@ export const dynamic = "force-static";
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const siteUrl = siteConfig.url;
 
-  // Static paths that always exist (home + standalone pages)
-  const staticPaths = ["/", "/privacy-policy", "/terms-of-service", "/copyright", "/about"];
-
   // Listing pages, derived from CONTENT_TYPES so the sitemap can never drift from the nav config
   const listingPaths = CONTENT_TYPES.map((contentType) => `/${contentType}`);
+
+  // Static paths that always exist (home + content type listing pages + standalone pages)
+  const staticPaths = ["/", ...listingPaths, "/privacy-policy", "/terms-of-service", "/copyright", "/about"];
 
   // Dynamic paths: scan actual MDX content files
   const contentPaths = await getAllContentPaths("en");
   const dynamicPaths = contentPaths.map((item) => `/${[item.contentType, ...item.slug].join("/")}`);
 
-  const paths = [...staticPaths, ...listingPaths, ...dynamicPaths];
+  const paths = [...staticPaths, ...dynamicPaths];
 
   return routing.locales.flatMap((locale) =>
     paths.map((path) => ({
